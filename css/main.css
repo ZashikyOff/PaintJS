@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+canvas {
+    border: 1px solid black;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+}
+.menu * {
+    margin: 5px;
+    z-index: 0;
+    cursor: pointer;
+}
+.menu input[type="radio"] {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    background-color: transparent;
+}
+.menu .palette {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+/* les couleurs */
+
+#black {
+    background-color: black;
+}
+#blue {
+    background-color: blue;
+}
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+#purple {
+    background-color: purple;
+}
+#pink {
+    background-color: pink;
+}

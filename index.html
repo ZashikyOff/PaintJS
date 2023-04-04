@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="js/app.js" defer></script>
+    <div class="menu">
+        <div class="pen">
+            <input type="radio" name="tool" id="pen" value="pen" checked>
+            <label for="pen"><i class="fa-solid fa-pen fa-2xl"></i></label>
+        </div>
+        <div class="fill">
+            <input type="radio" name="tool" id="fill" value="fill">
+            <label for="fill"><i class="fa-solid fa-fill-drip fa-2xl"></i></label>
+        </div>
+        <div class="eraser">
+            <input type="radio" name="tool" id="eraser" value="eraser">
+            <label for="eraser"><i class="fa-solid fa-eraser fa-2xl"></i></label>
+        </div>
+        
+        <a><div class="palette" id="black"><input type="hidden" name="" value="black"></div></a>
+        <a><div class="palette" id="blue"></div></a>
+        <a><div class="palette" id="green"></div></a>
+        <a><div class="palette" id="red"></div></a>
+        <a><div class="palette" id="orange"></div></a>
+        <a><div class="palette" id="purple"></div></a>
+        <a ><div class="palette" id="pink"></div></a>
+    </div>
+    <canvas id="tutoriel" width="500" height="500"></canvas>
+</body>
+
+</html>
